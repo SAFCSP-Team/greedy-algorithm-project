@@ -67,8 +67,6 @@ class Item {
         this.value = value;
         this.weight = weight;
     }
-
-
     
 }
 
@@ -151,10 +149,6 @@ public class TruckShipments {
     }
 
 
-
-
-
-    
 }
 
   ```
