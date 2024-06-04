@@ -1,6 +1,4 @@
-/**
- * Items
- */
+
 class Item {
 
     String name;
