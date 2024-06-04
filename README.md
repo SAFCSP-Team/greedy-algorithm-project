@@ -49,9 +49,10 @@ value: 2000$
    
 ### Implementation
 
-* In the java file in line number 98, add an **if** statement that picks the most valuable item.
+* Add an **if** statement that picks the most valuable item.
 Hint:
-The current
+- The 
+- The currentCapacity should be below or equal to the (capacity - currentCapacity).
 
 ```java
 
