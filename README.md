@@ -49,8 +49,9 @@ value: 2000$
    
 ### Implementation
 
-* In line number 98 Add an **if** statement that picks the most valuable item
-
+* In the java file in line number 98, add an **if** statement that picks the most valuable item.
+Hint:
+The current
 
 ```java
 
@@ -92,7 +93,7 @@ public class TruckShipments {
 
         while (currentCapacity < this.capacity && k < plan.length) {
 
-            // find most valuable item that fits the truck capacity
+            // find the most valuable item that fits the truck capacity
             for (int i = 0; i < temp_item_arr.length; i++) {
 
                 /* add your code here */
