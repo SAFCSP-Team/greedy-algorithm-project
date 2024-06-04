@@ -23,7 +23,7 @@ Item 3:
 weight: 20kg     
 value: 2000$     
    
-Item 3:    
+Item 4:    
 weight: 10kg     
 value: 1500$     
    
@@ -43,7 +43,7 @@ Item 2:
 weight: 30kg    
 value: 3000$    
    
-Item 4:    
+Item 3:    
 weight: 20kg     
 value: 2000$        
    
