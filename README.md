@@ -52,7 +52,7 @@ value: 2000$
 * Add an **if** statement that picks the most valuable item in the array.
 * Write the If statement conditions considering the truck capacity and the item value.
 * In the if statement **currentItem** should hold the current most valuable item.
-* In the if statement **removeIndex** should hold the current most valuable item index.
+* In the if statement **removeIndex** should hold the index of the current most valuable item.
 
 
 
