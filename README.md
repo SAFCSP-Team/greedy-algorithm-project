@@ -49,7 +49,7 @@ value: 2000$
    
 ### Implementation
 
-* Add an **if** statement that picks the most valuable item
+* In line number 98 Add an **if** statement that picks the most valuable item
 
 
 ```java
@@ -92,18 +92,15 @@ public class TruckShipments {
 
         while (currentCapacity < this.capacity && k < plan.length) {
 
-            // find highest score place that fits the time capacity
+            // find most valuable item that fits the truck capacity
             for (int i = 0; i < temp_item_arr.length; i++) {
 
                 /* add your code here */
 
             }
 
-            // add the place to the plan
             plan[k++] = currentItem;
-            // add the place time to the time capacity counter
             currentCapacity += currentItem.weight;
-            // delete the place from the temp array
             delete(temp_item_arr, removeIndex);
             currentItem = temp_item_arr[0];
         }
@@ -151,6 +148,10 @@ public class TruckShipments {
         System.out.println();
 
     }
+
+
+
+
 
     
 }
